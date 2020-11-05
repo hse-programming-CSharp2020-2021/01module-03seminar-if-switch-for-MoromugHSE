@@ -56,11 +56,11 @@ namespace Task_04
         {
             if (y > x && x > 0.0)
             {
-                return x + Math.Sin(x);
+                return x + Math.Sin(y);
             }
             else if (y < x && x < 0.0)
             {
-                return y - Math.Cos(y);
+                return y - Math.Cos(x);
             }
             else
             {
