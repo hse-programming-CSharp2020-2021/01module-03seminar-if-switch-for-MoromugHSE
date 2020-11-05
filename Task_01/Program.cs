@@ -60,16 +60,23 @@ namespace Task_01
             // если вычислить удалось, поместить в res полученное S.
             int step = 0;
             int sum = 0;
-            while (sum < 10 * 1000)
+            while (sum < 10000)
             {
                 sum += l + step++;
-                if (sum >= 1000)
+                switch(sum)
                 {
-                    if (AreAllDigitsSimilar(sum))
-                    {
-                        res = sum;
-                        break;
-                    }
+                    case 1111:
+                    case 2222:
+                    case 3333:
+                    case 4444:
+                    case 5555:
+                    case 6666:
+                    case 7777:
+                    case 8888:
+                    case 9999:
+                        {
+                            return sum;
+                        }
                 }
             }
             return res;
