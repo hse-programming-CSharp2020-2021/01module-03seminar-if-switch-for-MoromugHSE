@@ -42,7 +42,7 @@ namespace Task_05
             // TODO : Считать точку.
             x = double.Parse(Console.ReadLine());
 
-            Console.WriteLine(G(x));
+            Console.WriteLine($"{G(x):F2}");
         }
 
         public static double G(double x)
