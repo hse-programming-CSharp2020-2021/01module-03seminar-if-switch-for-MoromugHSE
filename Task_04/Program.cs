@@ -26,8 +26,10 @@
 
 using System;
 using System.Collections.Generic;
+using System.Globalization;
 using System.Linq;
 using System.Text;
+using System.Threading;
 using System.Threading.Tasks;
 
 namespace Task_04
@@ -37,6 +39,8 @@ namespace Task_04
         static void Main(string[] args)
         {
             // TODO : Сменить локаль на "ru-RU" для ввода чисел с плавующей точкой.
+            Thread.CurrentThread.CurrentCulture = new CultureInfo("ru-RU");
+            Thread.CurrentThread.CurrentUICulture = new CultureInfo("ru-RU");
 
             double x, y;
             // TODO : Считать координаты точки.
