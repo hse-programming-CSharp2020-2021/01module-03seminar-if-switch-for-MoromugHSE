@@ -23,17 +23,24 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Task_02 {
-	class Program {
-		static void Main(string[] args) {
-			int x;
-			// TODO : Ввести X.
+namespace Task_02
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            int x;
+            // TODO : Ввести X.
+            x = int.Parse(Console.ReadLine());
+            Console.WriteLine(Reverse(x));
+        }
 
-			Console.WriteLine(Reverse(x));
-		}
-
-		public static int Reverse(int x) {
-			// TODO : Описать логику метода для получения нового числа.
-		}
-	}
+        public static int Reverse(int x)
+        {
+            // TODO : Описать логику метода для получения нового числа.
+            char[] value = x.ToString().ToCharArray();
+            Array.Sort(value);
+            return int.Parse(new string(value));
+        }
+    }
 }
