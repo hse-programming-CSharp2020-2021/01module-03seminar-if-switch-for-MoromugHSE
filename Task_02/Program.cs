@@ -39,7 +39,7 @@ namespace Task_02
         {
             // TODO : Описать логику метода для получения нового числа.
             char[] value = x.ToString().ToCharArray();
-            Array.Sort(value);
+            Array.Reverse(value);
             return int.Parse(new string(value));
         }
     }
