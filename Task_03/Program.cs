@@ -23,8 +23,10 @@
 
 using System;
 using System.Collections.Generic;
+using System.Globalization;
 using System.Linq;
 using System.Text;
+using System.Threading;
 using System.Threading.Tasks;
 
 namespace Task_03
@@ -34,9 +36,13 @@ namespace Task_03
         static void Main(string[] args)
         {
             // TODO : Сменить локаль для ввода чисел с плавующей точкой.
+            Thread.CurrentThread.CurrentCulture = new CultureInfo("ru-RU");
+            Thread.CurrentThread.CurrentUICulture = new CultureInfo("ru-RU");
 
             double x, y;
             // TODO : Считать координаты точки.
+            x = double.Parse(Console.ReadLine());
+            y = double.Parse(Console.ReadLine());
 
 
             Console.WriteLine(G(x, y));
@@ -45,11 +51,16 @@ namespace Task_03
 
         public static bool G(double x, double y)
         {
-            bool res = false;
-
-            // TODO : Реализовать вычисление функции G.
-
-            return res;
+            if (Math.Sqrt(y * y + x * x) > 2.0)
+            {
+                return false;
+            }
+            double pointAngle = Math.Atan2(y, x);
+            if (pointAngle < -Math.PI / 2.0 || pointAngle > Math.PI / 4.0)
+            {
+                return false;
+            }
+            return true;
         }
     }
 }
