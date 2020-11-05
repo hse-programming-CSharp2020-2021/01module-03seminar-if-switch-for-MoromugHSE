@@ -38,6 +38,7 @@ namespace Task_01
             int result = CalcS(l);
 
             // TODO : вывести результат или 0, если его не было получено.
+            Console.WriteLine(l); return;
             Console.WriteLine(result == -1 ? 0 : result);
         }
 
