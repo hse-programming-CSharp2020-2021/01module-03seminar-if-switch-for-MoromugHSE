@@ -7,7 +7,6 @@ D:\VS_Projects\HW_2_Templates\Task_02\obj\Debug\Task_02.pdb
 D:\VS_Projects\HW_3_Templates\01module-03seminar-if-switch-for-MoromugHSE\Task_02\bin\Debug\Task_02.exe.config
 D:\VS_Projects\HW_3_Templates\01module-03seminar-if-switch-for-MoromugHSE\Task_02\bin\Debug\Task_02.exe
 D:\VS_Projects\HW_3_Templates\01module-03seminar-if-switch-for-MoromugHSE\Task_02\bin\Debug\Task_02.pdb
-D:\VS_Projects\HW_3_Templates\01module-03seminar-if-switch-for-MoromugHSE\Task_02\obj\Debug\Task_02.csprojAssemblyReference.cache
 D:\VS_Projects\HW_3_Templates\01module-03seminar-if-switch-for-MoromugHSE\Task_02\obj\Debug\Task_02.csproj.CoreCompileInputs.cache
 D:\VS_Projects\HW_3_Templates\01module-03seminar-if-switch-for-MoromugHSE\Task_02\obj\Debug\Task_02.exe
 D:\VS_Projects\HW_3_Templates\01module-03seminar-if-switch-for-MoromugHSE\Task_02\obj\Debug\Task_02.pdb
